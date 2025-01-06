@@ -107,6 +107,7 @@ function cvCommand(){
   printContent(commands['phone']);
   printContent(commands['github']);
   printContent(commands['linkedIn']);
+  printContent(commands['resume']);
   insertLine("\n<strong>--Experience--</strong>\n",true);
   printContent(commands['experience']);
   insertLine("\n<strong>--Education--</strong>\n",true);

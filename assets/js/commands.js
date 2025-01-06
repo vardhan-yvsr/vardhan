@@ -19,6 +19,11 @@ const commands = {
     "multiline":false,
     "content":"I have a github profile which you can see at the link https://github.com/vardhan-yvsr"
   },
+  "resume":{
+    "description":"Get my Resume",
+    "multiline":false,
+    "content":"I have a Resume which you can see at the link https://drive.google.com/file/d/1KfLnFNtWHSwhPpmQj5tSCptXYOqXffUQ/view?usp=drive_link"
+  },
   "linkedin":{
     "description":"Get my Linkedin profile",
     "multiline":false,
