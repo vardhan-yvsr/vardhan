@@ -2,7 +2,7 @@ const commands = {
   "whoiam":{
     "description":"Tells you who i am",
     "multiline":false,
-    "content":"Hello! I'm Yash Vardhan Singh and I'm a B.Tech. Final year AI-ML student, From Galgotias College of Engineering and Technology. I Leverage data analytics expertise to extract actionable insights from large datasets and implement Artificial Intelligence and Machine Learning algorithms to solve complex problems."
+    "content":"Hello! I'm Yash Vardhan Singh and I'm a Final-year B.Tech student with hands-on experience designing and deploying scalable serverless applications on AWS. Proficient in Python, C/C++, JavaScript, and TypeScript, with strengths in RESTful API development, data engineering, and cloud integration using MySQL and DynamoDB. Demonstrated ability to deliver impactful solutions through projects in AI-driven travel planning. Eager to contribute technical expertise and problem-solving skills to innovative, data-centric teams."
   },
   "mail":{
     "description":"Get my mail",
@@ -12,7 +12,7 @@ const commands = {
   "phone":{
     "description":"Get my Phone Number",
     "multiline":false,
-    "content":"My Phone Number: 9839658555"
+    "content":"My Phone Number: +91-9839658555"
   },
   "github":{
     "description":"Get my github profile",
@@ -22,7 +22,7 @@ const commands = {
   "resume":{
     "description":"Get my Resume",
     "multiline":false,
-    "content":"I have a Resume which you can see at the link https://drive.google.com/file/d/1KfLnFNtWHSwhPpmQj5tSCptXYOqXffUQ/view?usp=drive_link"
+    "content":"I have a Resume which you can see at the link https://drive.google.com/file/d/1BZyChqa0cYczhK0N9F_Rb7yN3SlfgM-U/view?usp=sharing"
   },
   "linkedin":{
     "description":"Get my Linkedin profile",
@@ -33,7 +33,7 @@ const commands = {
     "description":"Get my education timeline",
     "multiline":true,
     "content":[
-      "Place: Galgotias College of Engineering and Technology  2021-Now  -  Degree: B.Tech. Artificial Intelligence and Machine Learning",
+      "Place: Galgotias College of Engineering and Technology  2021-Now  -  Degree: B.Tech. CSE - Artificial Intelligence and Machine Learning",
       "Place: Montfort Inter College  2019-2021  -  Degree: Intermediate - Percentage: 93%",
       "Place: Montfort Inter College  2007-2019  -  Degree: High School - Percentage: 95%"
     ]
@@ -43,20 +43,39 @@ const commands = {
     "multiline":true,
     "content":[
       "Outlier.ai | Freelance AI Specialist | Remote | November 2024 – Present",
-      "Conducting RLHF (Reinforcement Learning with Human Feedback) training to optimize language models for AI applications.",
-      "Specializing in training AI models for programming languages, enhancing capabilities in coding logic, efficiency, and error handling.",
-      "Collaborating on AI training projects to enhance model accuracy and robustness.",
+      "Conducted Reinforcement Learning with Human Feedback (RLHF) training to optimize large language models for improved performance in real-world AI applications.",
+      "Performed error analysis to identify and resolve inconsistencies in model outputs.",
       " ",
       " ",
-      "DataAnnotation.tech | Data Analyst (Generative AI) | Remote July 2024 - October 2024",
-      "Trained Hindi Conversational AI models, improving response relevance by 25% for native language users.",
-      "Contributed to the development of Claude AI, enhancing conversation flow and intent recognition by 20% through AI training."
+      "MEDWANDER | BUSINESS ANALYST INTERN | August 2024 – November 2024 | Remote | Gurugram",
+      "Deployed and managed web services on AWS EC2, configuring security groups and monitoring backend performance for scalable application delivery.",
+      "Collaborated with cross-functional teams to analyze business requirements, streamline cloud deployment processes, and enhance data integrity.",
+      "Supported data-driven decision-making by translating business needs into technical solutions, contributing to process improvements and reliable data management.",
     ]
   },
   "projects":{
     "description":"Get cool projects I created.",
     "multiline":true,
     "content":[
+      "Serverless Web Application on AWS",
+      "Engineered and deployed a fully serverless web application using AWS S3 (static hosting), Lambda (Python), API Gateway (RESTful endpoints), DynamoDB (NoSQL storage), and CloudFront (secure, low-latency delivery).",
+      "Automated static website hosting with S3 and optimized global content delivery using CloudFront, ensuring secure HTTPS access and low latency.",
+      "Demo: https://d35fg8fok02d7j.cloudfront.net/",
+      "Github: https://github.com/vardhan-yvsr/AWS-WebApp-Serverless",
+      " ",
+      " ",
+      "Serverless REST API on AWS",
+      "Developed a serverless REST API leveraging AWS Lambda (Python), API Gateway, IAM roles, and DynamoDB to deliver a secure, scalable backend.",
+      "Demo: https://bgfpwy9xyk.execute-api.ap-south-1.amazonaws.com/dev",
+      "Github: https://github.com/vardhan-yvsr/REST-API-on-AWS",
+      " ",
+      " ",
+      "Travelin | AI-Powered Travel and Tourism Web Application",
+      "Built an AI-driven travel planning platform with React.js and TypeScript, integrating the Perplexity API for dynamic itinerary generation and personalized recommendations.",
+      "Published research detailing the system’s architecture and AI integration, demonstrating real-world application of cloud and AI technologies.",
+      "Research Publication : https://zenodo.org/records/15350423",
+      " ",
+      " ",
       "Power BI Dashboard Project: Streaming Platform Analysis",
       "Designed and developed an interactive OTT Dashboard for Netflix, Amazon Prime, and Disney+ Hotstar using Power BI.",
       "Built dynamic visualizations for analyzing platform-wise content distribution and ratings.",
@@ -68,13 +87,10 @@ const commands = {
     "description":"See my Skills.", 
     "multiline":true,
     "content":[
-      "Frontend Development - HTML, CSS, JavaScript.",
-      "Backend Development - Database Management :MySQL, MongoDB.",
-      "AI and ML - Python ,TensorFlow, PyTorch, XGBoost, Keras, and OpenCV.",
-      "Data Visualization Tools - Power BI, Matplotlib, Seaborn.",
-      "Cybersecurity Tools - Wireshark, Metasploit, Nessus, Burp Suite, Nmap.",
+      "Languages -Python , SQL , C/C++ , JavaScript , TypeScript , HTML , CSS",
+      "Tools & Platforms - AWS Cloud ( EC2 , S3 , Lambda , API Gateway , DynamoDB ) , MySQL , MongoDB , Power BI , Git",
+      "Core Skills - Artificial Intelligence , Machine Learning , Data Visualization , API Integration , Data Migration , CI/CD , Cloud Security , Serverless Architecture, Virtualization , Networking , Database Management , Version Control , Agile Methodologies",
       "Operating Systems - Linux (Kali, Ubuntu), Windows (Server and Desktop).",
-      "Version Control - Git, GitHub"
     ]
   },
   "certifications":{
